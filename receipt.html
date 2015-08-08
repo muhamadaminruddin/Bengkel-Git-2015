@@ -1,0 +1,129 @@
+<style>
+table, th, td {
+    background-color: white;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+p {
+	text-align: left;
+}
+b {
+    text-align: left;
+    font-weight: bold;
+}
+
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+
+.total {
+	text-align: center;
+    font-weight: bold;
+}
+
+.address {
+	text-align: left;
+    font-weight: bold;
+}
+
+</style>
+<table id="printTable" align="center" background-color="white">
+<tr><td>
+<table align="center">
+	<tr>
+		<td><img src="<?php echo base_url(); ?>assets/img/albaghdadi_logo.png"></p>
+</td>
+		<td class="address">33 Jalan 34,<br>Taman Seri Mawar Berduri,<br>54321,Gombak, Selangor.</td>
+	</tr>
+</table>
+
+<hr>
+<table align="center">
+	<tr>
+		<td><b>Name</b></td>
+		<td>:</td>
+		<td>Ain Auni</td>
+
+		<td><b>Session</b></td>
+		<td>:</td>
+		<td>2015</td>
+
+		<td><b>Doc No</b></td>
+		<td>:</td>
+		<td>OR0014</td>
+	</tr>
+
+	<tr>
+		<td><b>My Kid</b></td>
+		<td>:</td>
+		<td>201212-56-4141</td>
+
+		<td><b>Program</b>
+		<td>:</td>
+		<td>4 Tahun Pra A	</td>
+
+		<td><b>Date</b></td>
+		<td>:</td>
+		<td><?php echo date("d-m-Y"); ?></td>
+	</tr>
+
+	<tr>
+		<td><b>Branch</b>
+		<td>:</td>
+		<td>APC Seksyen 9</td>
+        </td>
+
+    <td><b>Class</b></td>
+		<td>:</td>
+		<td>Kelas APC 1</td>
+
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+</table><br>
+<table border="1" width="100%" align="center">
+	<tr>
+		<th width="5%"><center>#</center></th>
+		<th width="50%"><center>Issue</center></th>
+		<th width="15%" colspan="2"><center>Amount</center></th>
+	</tr>
+	<tr>
+		<td><center>1</center></td>
+		<td>Organization Fee<br>Books Fee</td>
+		<td><center>RM 300<br>RM150</center></td>
+	</tr>
+
+	<tr>
+		<td class="total" colspan="2"><b>Total</b></td>
+		<td class="total"><b>RM450</b></td>
+	</tr>
+</table>
+
+    <br>
+<hr>
+
+<table align="center">
+	<tr>
+		<td colspan="3">Al Baghdadi Playtime Centre</td>
+	</tr>
+</table>
+</tr></td>
+</table>
+<button>Print Receipt</button>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="asset/js/jquery-printme.js"></script>
+	
+	
